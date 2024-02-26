@@ -1,0 +1,17 @@
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    gap: 10px;
+}
+
+.feature-img{
+    height: 100%;
+    /* width: fit-content; */
+}
+
+.feature-text{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}

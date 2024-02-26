@@ -1,0 +1,71 @@
+.intro-container{
+    display: flex;
+
+}
+
+.left-div{
+flex: 1;
+}
+
+.trophy-img{
+    height: 100%;
+    width: 100%;
+}
+.right-div{
+flex: 2;
+}
+
+.group-image{
+    height: 100%;
+    width: 100%;
+}
+
+@media (width<=1000px) {
+    .intro-container{
+        display: flex;
+       
+    }
+    
+    .left-div{
+        display: flex;
+        align-items: center;
+    }
+
+    .trophy-img{
+        height: 90vh;
+        /* width: fit-content; */
+    }
+
+    .group-image{
+        height: 50vh;
+        /* width: fit-content; */
+    }
+}
+
+@media (width<=880px) {
+    .trophy-img{
+        height: 70vh;
+        width: fit-content;
+    }
+}
+@media (width<=750px) {
+    .intro-container{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .trophy-img{
+        height: 50vh;
+        width: fit-content;
+    }
+
+    .right-div{
+        padding: 0px 5px;
+        }
+
+        .group-image{
+            height: 100%;
+            /* width: fit-content; */
+        }
+}
